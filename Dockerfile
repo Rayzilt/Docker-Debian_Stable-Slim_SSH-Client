@@ -1,4 +1,4 @@
-FROM debian/stable-slim:latest
+FROM debian:stable-slim
 LABEL maintainer="Rayzilt - <docker@rayzilt.nl>"
 
 # Set apt non-interactive
