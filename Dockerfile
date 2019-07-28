@@ -6,10 +6,10 @@ ENV DEBIAN_FRONTEND noninteractive
 
 # Install OpenSSH Client
 RUN set -x \
-	&& apt-get update \
-	&& apt-get --no-install-recommends install -y openssh-client\
-	&& apt-get autoremove --purge -y \
-	&& apt-get clean \
+	&& apt update \
+	&& apt --no-install-recommends install -y openssh-client\
+	&& apt autoremove --purge -y \
+	&& apt clean \
 	&& rm -rf /var/lib/apt/lists/*
 
 CMD ["bash"]
