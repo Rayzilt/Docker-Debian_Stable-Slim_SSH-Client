@@ -1,4 +1,4 @@
-# rayzilt/clamav #
+# rayzilt/docker-debian_stable-slim_ssh-client #
 
 Docker image with openSSH Client installed for deployment purposes based on Debian Stable.
 
