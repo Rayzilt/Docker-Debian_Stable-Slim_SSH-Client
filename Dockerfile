@@ -13,3 +13,12 @@ RUN set -x \
 	&& rm -rf /var/lib/apt/lists/*
 
 CMD ["bash"]
+
+LABEL org.label-schema.name="OpenSSH" \
+	org.label-schema.description="OpenSSH Client" \
+	org.label-schema.version=$DATE \
+	org.label-schema.usage="https://cloud.docker.com/repository/docker/rayzilt/debian_stable-slim_ssh-client/" \
+	org.label-schema.url="https://www.openssh.com/" \
+	org.label-schema.vendor="Rayzilt" \
+	org.label-schema.build-date=$DATE \
+	org.label-schema.schema-version="1.0" \
