@@ -6,5 +6,5 @@
 echo "[***] Build hook running"
 
 docker build \
-  --build-arg DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ") \
+  --build-arg DATE=$(date -u +"%Y-%m-%d") \
   -t $IMAGE_NAME .
