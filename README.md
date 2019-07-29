@@ -1,6 +1,10 @@
-# rayzilt/docker-debian_stable-slim_ssh-client #
+# rayzilt/debian_stable-slim_ssh-client #
 
 Docker image with openSSH Client installed for deployment purposes based on Debian Stable.
+
+[![Build Automated](https://img.shields.io/docker/automated/rayzilt/debian_stable-slim_ssh-client.svg)](https://hub.docker.com/r/rayzilt/debian_stable-slim_ssh-client)
+[![Build Status](https://img.shields.io/docker/cloud/build/rayzilt/debian_stable-slim_ssh-client.svg)](https://hub.docker.com/r/rayzilt/debian_stable-slim_ssh-client)
+[![Docker Pulls](https://img.shields.io/docker/pulls/rayzilt/debian_stable-slim_ssh-client.svg)](https://hub.docker.com/r/rayzilt/debian_stable-slim_ssh-client)
 
 ### Tags ###
 Branch  | Version  | Tag Name     | Dockerfile | Image Info
